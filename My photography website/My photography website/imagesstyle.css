@@ -1,0 +1,16 @@
+body {
+    background-color: ghostwhite;
+}
+
+div {
+    width: auto;
+    text-align: center;
+    padding: 15px;
+    display: inline-block;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+    margin: 0 1rem 1rem 0;
+}

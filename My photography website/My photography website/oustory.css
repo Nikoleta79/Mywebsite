@@ -1,0 +1,27 @@
+body {
+    background-image: url("../HighviewinGroningen.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 600px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+h1,
+h2 {
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+h2 {
+    font-style: italic;
+}

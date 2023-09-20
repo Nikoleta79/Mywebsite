@@ -1,0 +1,107 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.link {
+    list-style-type: none;
+    margin-bottom: 0.1rem;
+    padding: 0.5em;
+    display: block;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+.foto {
+    display: inline-block;
+
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 25px;
+}
+
+li a:hover {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    font-size: medium;
+}
+
+#scroll-container {
+    border: 3px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#scroll-text {
+    /* animation properties */
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+
+    -moz-animation: my-animation 30s linear infinite;
+    -webkit-animation: my-animation 30s linear infinite;
+    animation: my-animation 30s linear infinite;
+}
+
+
+@-webkit-keyframes my-animation {
+    from {
+        -webkit-transform: translateX(100%);
+    }
+
+    to {
+        -webkit-transform: translateX(-100%);
+    }
+}
+
+@keyframes my-animation {
+    from {
+        -moz-transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+    }
+
+    to {
+        -moz-transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+
+
+}
+
+.Zernikebikes {
+    float: left;
+    border: 5px solid black;
+    width: 500px;
+    margin: 0 1rem 1rem 0;
+}
+
+.Mist {
+    float: right;
+    border: 5px solid black;
+    width: 500px;
+    margin: 0 1rem 1rem 0;
+}
+
+.info {
+    width: 100px;
+    background-color: transparent;    
+    padding-bottom: 20rem;
+    writing-mode:sideways-lr;
+    text-orientation: sideways-right;
+    }
