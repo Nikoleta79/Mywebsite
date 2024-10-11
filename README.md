@@ -1,4 +1,6 @@
 # Mywebsite
+![indexfoto](https://github.com/user-attachments/assets/2b32feb3-b40a-4ec2-8430-728cb34f570a)
+
 Making my photography website 
 ClickLens Photography Website
 Welcome to the ClickLens Photography Website repository! This website is designed to showcase photography work, provide information about the photographer, and offer various sections related to photography, including a blog and a contact page. Below, you'll find an overview of the website's content and how to navigate through it.
